@@ -1,3 +1,6 @@
+.idea/*.*
+.idea/codeStyles/*.*
+
 # Built application files
 *.apk
 *.ap_
@@ -53,3 +56,5 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+.idea/codeStyles/Project.xml
+.idea/codeStyles/Project.xml

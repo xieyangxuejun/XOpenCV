@@ -1,0 +1,42 @@
+ext {
+    android =
+            [
+                    applicationId    : "com.xyxj.cv",
+
+                    //版本号
+                    versionCode      : 2,
+                    versionName      : "1.0.1",
+
+                    //sdk版本
+                    compileSdkVersion: 28,
+                    buildToolsVersion: "28.0.3",
+                    minSdkVersion    : 15,
+                    targetSdkVersion : 28,
+                    supportVersion   : "28.0.0",
+            ]
+
+    jcenter =
+            [
+                    name_native: "cv32-native",
+                    name_java  : "cv32-java",
+                    groupId    : "com.xyxj.cv",
+                    siteUrl    : "https://github.com/xieyangxuejun/XOpenCV",
+                    gitUrl     : "https://github.com/xieyangxuejun/XOpenCV.git",
+                    description: "OpenCV32库",
+                    //开发者的一些基本信息
+                    authorId   : "xieyangxuejun",
+                    authorName : "xieyangxuejun",
+                    authorEmail: "xieyangxuejun@gmail.com",
+
+                    //开源协议
+                    licenses   : {
+                        license {
+                            name 'MIT'
+                            url 'https://opensource.org/licenses/MIT'
+                        }
+                    },
+                    licenseName: 'MIT'
+            ]
+
+
+}

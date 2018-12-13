@@ -1,1 +1,1 @@
-include ':app', ':OpenCV320'
+include ':app', ':cv32-java', ':cv32-native'
